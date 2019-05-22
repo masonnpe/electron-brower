@@ -6,6 +6,7 @@ var clipboard = require('clipboard')
 var urllib = require('url')
 const config = require('./config')
 
+
 function createPageObject (location) {
   return {
     location: location||config.loadURL,

@@ -17,6 +17,10 @@ npm start
 ```
     webview.removeEventListener('new-window',this.newWindowOpen)
     webview.addEventListener('new-window', this.newWindowOpen)
-
 ```
 
+electron-log记录主线程日志，window下日志放在
+
+```bash
+%USERPROFILE%\AppData\Roaming\<app name>\log.log
+```

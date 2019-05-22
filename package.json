@@ -1,22 +1,24 @@
 {
-  "name": "electron-browser",
+  "name": "electron-brower",
   "version": "1.0.0",
-  "description": "browser ui for electron, written in react",
+  "description": "A minimal Electron application",
+  "main": "main.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
+  "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
-    "electron",
-    "browser",
-    "webview",
-    "react"
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
   ],
-  "author": "Paul Frazee <pfrazee@gmail.com>",
-  "license": "MIT",
+  "author": "GitHub",
+  "license": "CC0-1.0",
   "devDependencies": {
-    "electron-prebuilt": "^0.28.2"
-  },
-  "dependencies": {
+    "electron-log": "^2.2.12",
+	  "electron-prebuilt": "^0.28.2"
   }
 }
+
